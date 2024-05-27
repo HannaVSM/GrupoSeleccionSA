@@ -27,16 +27,16 @@ export const Login = () => {
                     <div className="login">
                         <p>Inicio de sesión</p>
                         <form className='form-login'>
-                            <div className="form">
+                            <div className="form-l">
                                 <input type="text" required />
                                 <label class="lbl-nombre">
-                                    <span class="text-nomb">CONSECUTIVO DEL CLIENTE</span>
+                                    <span class="text-nomb-l">CONSEC. DEL CLIENTE</span>
                                 </label>
                             </div>
-                            <div className="form">
+                            <div className="form-l">
                                 <input type="text" required />
                                 <label class="lbl-nombre">
-                                    <span class="text-nomb">NIT DEL CLIENTE</span>
+                                    <span class="text-nomb-l">NIT DEL CLIENTE</span>
                                 </label>
                             </div>
                             <div className="btns">
@@ -50,16 +50,16 @@ export const Login = () => {
                     <div className="login">
                         <p>Inicio de sesión</p>
                         <form className='form-login'>
-                            <div className="form">
+                            <div className="form-l">
                                 <input type="text" required />
                                 <label class="lbl-nombre">
-                                    <span class="text-nomb">USUARIO</span>
+                                    <span class="text-nomb-l">USUARIO</span>
                                 </label>
                             </div>
-                            <div className="form">
+                            <div className="form-l">
                                 <input type="text" required />
                                 <label class="lbl-nombre">
-                                    <span class="text-nomb">DOCUMENTO DEL CANDIDATO</span>
+                                    <span class="text-nomb-l">DOCUMENTO DEL CANDIDATO</span>
                                 </label>
                             </div>
                             <div className="btns">
@@ -73,16 +73,16 @@ export const Login = () => {
                     <div className="login">
                         <p>Inicio de sesión</p>
                         <form className='form-login'>
-                            <div className="form">
+                            <div className="form-l">
                                 <input type="text" required />
                                 <label class="lbl-nombre">
-                                    <span class="text-nomb">CÓDIGO DEL EMPLEADO</span>
+                                    <span class="text-nomb-l">CÓDIGO DEL EMPLEADO</span>
                                 </label>
                             </div>
-                            <div className="form">
+                            <div className="form-l">
                                 <input type="text" required />
                                 <label class="lbl-nombre">
-                                    <span class="text-nomb">CORREO DEL EMPLEADO</span>
+                                    <span class="text-nomb-l">CORREO DEL EMPLEADO</span>
                                 </label>
                             </div>
                             <div className="btns">
