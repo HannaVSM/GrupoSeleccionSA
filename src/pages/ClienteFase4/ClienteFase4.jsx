@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import './ClienteFase3.css'
+import './ClienteFase4.css'
 
-export const ClienteFase3 = () => {
+export const ClienteFase4 = () => {
+
     const title = "Requerimiento - Fase";
     const description = "Descripcion";
+    
   return (
     <div className="login">
     <p>Analista General- nombre</p>
@@ -24,25 +26,23 @@ export const ClienteFase3 = () => {
 
     <p>Requerimientos</p>
 
-
     <div className="description-box">
       <h2>{title}</h2>
       <p>{description}</p>
     </div>
 
-    
 
-      <p>Generar convocatoria</p>
+      <p>Generar Invitacion</p>
 
       <div className="form">
           <input type="text" required />
           <label class="lbl-nombre">
-            <span class="text-nomb">Convocatoria</span>
+            <span class="text-nomb">Invitacion</span>
           </label>
         </div>
 
       <div className="button-container">
-        <button className="submit-button">Grabar</button>
+        <button className="submit-button">Enviar</button>
       </div>
     </div>
   );

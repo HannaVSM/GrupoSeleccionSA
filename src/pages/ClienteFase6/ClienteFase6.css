@@ -183,3 +183,98 @@
     font-size: 16px;
     color: #666;
   }
+
+  .table-container {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #E2BDF2; /* Color de fondo */
+
+  }
+  
+  .custom-table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    text-align: left;
+    
+  }
+  
+  .custom-table th, .custom-table td {
+    border: 1px solid #9538F2;
+    padding: 8px;
+  }
+  
+  /*Relleno*/
+  .custom-table th {
+    background-color: #E2BDF2;
+    text-align: center;
+  }
+  /*Boton ver*/
+  .custom-table td button {
+    padding: 5px 10px;
+    background-color: #9538F2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .custom-table td button:hover {
+    background-color: #9538F2;
+  }
+
+  
+.custom-table td button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #9538F2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #9538F2;
+  }
+
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
