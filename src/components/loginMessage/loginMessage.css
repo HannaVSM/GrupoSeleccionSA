@@ -1,0 +1,73 @@
+.b-l-message{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #E2BDF2;
+    justify-content: center;
+}
+.c-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 79vh;
+    margin: 0;
+}
+
+.logo{
+    width: 401px;
+    height: 80px;
+    background-color: #9538F2;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    background-color: transparent;
+    border: 1px solid #EB31B6;
+}
+
+.box-wide {
+    width: 403px; /* Ancho del primer cuadro */
+    height: 411px; /* Altura del primer cuadro */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .text{
+        width: fit-content;
+    }
+    
+    p{
+        color: #9538F2;
+        letter-spacing: 0.25em;
+        margin: 0px;
+        width: 306px;
+    }
+
+    .light{
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    .bold{
+        font-size: 34px;
+        font-weight: 800;
+        font-style: italic;
+    }
+}
+
+.box-tall {
+    width: 354px; /* Ancho del segundo cuadro */
+    height: 445px; /* Altura del segundo cuadro */
+    position: absolute;
+    top: 24.5%;
+}
