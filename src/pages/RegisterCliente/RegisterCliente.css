@@ -96,6 +96,7 @@
 .btns {
     .btn-login {
         width: 235px;
+        justify-content: center;
     }
 }
 

@@ -1,11 +1,17 @@
 import React from 'react'
-import './register.css'
+import './RegisterCliente.css'
 
-export const Register = () => {
+export const RegisterCli = () => {
   return (
     <div className="login">
-      <p>Registro empleado</p>
+      <p>Registro Cliente</p>
       <form className='w-1/2 grid grid-cols-2 gap-20 justify-center items-center'>
+      <div className="form">
+          <input type="text" required />
+          <label class="lbl-nombre">
+            <span class="text-nomb">Consecutivo</span>
+          </label>
+        </div>
         <div className="form">
           <input type="text" required />
           <label class="lbl-nombre">
@@ -15,43 +21,40 @@ export const Register = () => {
         <div className="form">
           <input type="text" required />
           <label class="lbl-nombre">
-            <span class="text-nomb">APELLIDO</span>
+            <span class="text-nomb">NIT de la empresa</span>
           </label>
         </div>
-        <div className="form">
-        <h3>Cargo</h3> 
-          <div class="content-select">
-            <select>
-              <option>Analista Cliente</option>
-              <option>Analista General</option>
-              <option>Analista Sicologico</option>
-              <option>Analista Conocimiento</option>
-              <option>Analista Tecnologico</option>
 
-            </select>
-            <i></i>
-          </div>
+        <div className="btns">
+          <button className='btn-login'>Registrar Cliente</button>
         </div>
-        <div className="form">
-          <input type="date" required />
-          <label class="lbl-nombre">
-            <span class="text-nomb">FECHA DE NACIMIENTO</span>
-          </label>
-        </div>
+      
+
+
         <div className="form">
           <input type="text" required />
           <label class="lbl-nombre">
-            <span class="text-nomb">CÓDIGO</span>
+            <span class="text-nomb">NIT</span>
           </label>
         </div>
+
         <div className="form">
-          <input type="email" required />
+          <input type="text" required />
           <label class="lbl-nombre">
-            <span class="text-nomb">CORREO</span>
+            <span class="text-nomb">Razon social</span>
           </label>
         </div>
+
+        <div className="form">
+          <input type="text" required />
+          <label class="lbl-nombre">
+            <span class="text-nomb">URL</span>
+          </label>
+        </div>
+
+
         <div className="btns">
-          <button className='btn-login'>Iniciar sesión</button>
+          <button className='btn-login'>Registrar Empresa</button>
         </div>
       </form>
     </div>
