@@ -27,7 +27,7 @@ const App = () => {
         <Route path="register-cli" element={<RegisterCli />} />
         <Route path="Candidato" element={<Candidato />} />
         <Route path="Cliente" element={<Cliente />} />
-        <Route path="ClienteFase1" element={<ClienteFase1 />} />
+        <Route path="21" element={<ClienteFase1 />} />
         <Route path="ClienteFase2" element={<ClienteFase2 />} />
         <Route path="ClienteFase3" element={<ClienteFase3 />} />
         <Route path="ClienteFase4" element={<ClienteFase4 />} />
